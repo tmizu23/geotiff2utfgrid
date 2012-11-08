@@ -29,50 +29,16 @@ http://www.ecoris.co.jp/map/utfgrid_test.html?zoom=16&lat=4607129.48013&lon=1568
 - `gdal2tilesXYZ.bat`  
  OSGeo4Wのためのファイルです。上記プログラムを呼び出すだけです。
 
-使い方
-------
-### インライン ###
-インラインのコードは、**バッククォート** (`` ` ``) で囲みます。
- 
-### ブロックレベル ###
-    function f () {
-        alert(0);  /* 先頭に4文字のスペース、
-                      もしくはタブを挿入します */
-    }
- 
-パラメータの解説
-----------------
-リストの間に空行を挟むと、それぞれのリストに `<p>` タグが挿入され、行間が
-広くなります。
- 
-    def MyFunction(param1, param2, ...)
- 
-+   `param1` :
-    _パラメータ1_ の説明
- 
-+   `param2` :
-    _パラメータ2_ の説明
  
 関連情報
 --------
-### リンク、ネストしたリスト
-1. [リンク1](http://example.com/ "リンクのタイトル")
-    * ![画像1](http://github.com/unicorn.png "画像のタイトル")
-2. [リンク2][link]
-    - [![画像2][image]](https://github.com/)
- 
-  [link]: http://example.com/ "インデックス型のリンク"
-  [image]: http://github.com/github.png "インデックス型の画像"
- 
-### 引用、ネストした引用
-> これは引用です。
->
-> > スペースを挟んで `>` を重ねると、引用の中で引用ができますが、
-> > GitHubの場合、1行前に空の引用が無いと、正しくマークアップされません。
- 
+[https://github.com/mapbox/utfgrid-spec/blob/master/1.2/utfgrid.md](https://github.com/mapbox/utfgrid-spec/blob/master/1.2/utfgrid.md "utfgrid.md")  
+[http://d.hatena.ne.jp/tmizu23/20121107](http://d.hatena.ne.jp/tmizu23/20121107)
+
+  
 ライセンス
 ----------
-Copyright &copy; 2011 xxxxxx
+Copyright &copy; 2012 tmizu23
 Licensed under the [Apache License, Version 2.0][Apache]
 Distributed under the [MIT License][mit].
 Dual licensed under the [MIT license][MIT] and [GPL license][GPL].
