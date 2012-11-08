@@ -16,17 +16,17 @@ http://www.ecoris.co.jp/map/utfgrid_test.html?zoom=16&lat=4607129.48013&lon=1568
 
 プログラム
 ------
-- gdal2tilesXYZ1band.py  
+- `gdal2tilesXYZ1band.py`  
  1バンドのGeoTIFFを1バンドのXYZタイルに変換します。gdal2tilesは強制的に3バンドに変換するので、1バンドのデータをそのまま1バンドのままタイルにします。また、その際にTMS形式ではなくXYZ形式で出力します。
-- gdal2tilesXYZ.py  
+- `gdal2tilesXYZ.py`  
  3バンドのGeoTIFFを3バンドのXYZタイルに変換します。gdal2tilesの出力はTMS形式なので、それをXYZ形式にしたものです。ただし、gdal2tilesが出力するメタデータやhtmlは出力しません。
-- tile2utfgrid.py  
+- `tile2utfgrid.py`  
  タイル画像からUTFGridファイル(.json)を作成します。
-- tile2utfgrid.bat  
+- `tile2utfgrid.bat`  
  OSGeo4Wのためのファイルです。上記プログラムを呼び出すだけです。
-- gdal2tilesXYZ1band.bat  
+- `gdal2tilesXYZ1band.bat`  
  OSGeo4Wのためのファイルです。上記プログラムを呼び出すだけです。
-- gdal2tilesXYZ.bat  
+- `gdal2tilesXYZ.bat`  
  OSGeo4Wのためのファイルです。上記プログラムを呼び出すだけです。
 
 使い方
