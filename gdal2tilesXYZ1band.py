@@ -1373,8 +1373,7 @@ gdal2tiles temp.vrt""" % self.input )
 								else:
 									tileposx = 0
 								dsquery.WriteRaster( tileposx, tileposy, self.tilesize, self.tilesize,
-									dsquerytile.ReadRaster(0,0,self.tilesize,self.tilesize,self.in_datatype),self.in_datatype)#<------------change
-				#<------------change					band_list=list(range(1,tilebands+1)))
+									dsquerytile.ReadRaster(0,0,self.tilesize,self.tilesize),band_list=list(range(1,tilebands+1)))
 								children.append( [x, y, tz+1] )
 
 					self.scale_query_to_tile(dsquery, dstile, tilefilename)
